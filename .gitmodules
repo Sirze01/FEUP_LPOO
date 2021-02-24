@@ -2,6 +2,3 @@
 [submodule "01/Operations"]
 	path = 01/Operations
 	url = git@github.com:Sirze01/FEUP_LPOO_Operations.git
-[submodule "02"]
-	path = 02
-	url = git@github.com:Sirze01/LPOO-hero.git
