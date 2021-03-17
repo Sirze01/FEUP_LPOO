@@ -47,6 +47,17 @@ public class ListFiltererTest {
     }
 
     @Test
+    public void DivisibleByFilterTest() {
+        List<Integer> pos = new ArrayList<>();
+        pos.add(12);
+        pos.add(-15);
+
+
+        ListFilterer filterer = new ListFilterer(list);
+        Assertions.assertEquals(pos, filterer.filter(new DivisibleByFilter(3)));
+    }
+
+    @Test
     public void divisibleByFilterMock() {
         List<Integer> pos = new ArrayList<>();
         pos.add(12);
